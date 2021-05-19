@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { View, Text } from 'react-native'
 
-import {RSA, RSAKeychain} from 'react-native-rsa-native';
+import { RSA, RSAKeychain } from 'react-native-rsa-native';
 
 let secret = 'secret message';
 let keyTag = 'com.domain.mykey';
@@ -158,19 +158,11 @@ const runDemos = async () => {
 runDemos().then()
 
 class App extends Component {
-  componentWillMount () {
-  
-  }
-
-  componentWillUnmount () {
-    
-  }
-
   render () {
     return (
       <View>
         <Text>
-            Demo
+          Demo
         </Text>
       </View>
     )
